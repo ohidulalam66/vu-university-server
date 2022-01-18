@@ -53,9 +53,9 @@ async function run() {
 run().catch(console.dir)
 
 app.get('/', (req, res) => {
-  res.send('Vu University')
+  res.send('Vu University server Running')
 })
 
 app.listen(port, () => {
-  console.log(`server Running:${port}`)
+  console.log(`Vu University server Running:${port}`)
 })
